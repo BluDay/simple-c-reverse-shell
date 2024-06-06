@@ -1,4 +1,4 @@
-// Last updated: 2023-02-11 21:11 UTC+1
+// main.c
 
 #include <arpa/inet.h>
 #include <netinet/in.h>
