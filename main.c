@@ -25,7 +25,7 @@ void main(void)
 
 	char * const argv[] = { "/bin/sh", "-i", NULL };
 
-    execve("/bin/sh", (char * const [])ARGV, NULL);
+    execve("/bin/sh", argv, NULL);
 
 	perror("execve");
 }
